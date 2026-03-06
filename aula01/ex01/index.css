@@ -1,0 +1,94 @@
+
+.fonte{
+    font-family: "Nunito";
+}
+
+.center{
+    padding-top: 5px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+body{
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: rgb(116, 190, 214);
+    color: black;
+    gap: 20px;
+
+}
+
+nav a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url("./assets/pesquisa.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: orange;
+}
+
+.banner h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.form-busca {
+    display: flex;
+
+}
+
+.form-busca input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 10px;
+    outline: 10px;
+    font-family: "Nunito", sans-serif;
+}
+
+.form-busca button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 10px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+}
+
+.form-busca button:hover {
+    background-color: #ccc;
+}
+
+.nav{
+    margin-left: 80px;
+    margin-top: 50px;
+    font-family: "Nunito", sans-serif;
+}
+
+a mark {
+    background-color: darkgreen;
+    color: black;
+  }
